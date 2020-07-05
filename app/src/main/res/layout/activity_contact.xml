@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/phoneNumber"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+
+        >
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoLink="phone"
+            android:text="01879599456"
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/callNow"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
+
+            android:text="Call Now"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/eMail"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/phoneNumber"
+
+        >
+
+
+        <TextView
+            android:id="@+id/e_mail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:autoLink="email"
+            android:text="isumon640@gmail.com"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="true"
+            android:textSize="40sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/socialContact"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/eMail"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:autoLink="web"
+            android:text="imo/ whatsapp/ viber/ wechat: 01879599465"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="true"
+            android:textSize="30sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/faceBook"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/socialContact"
+
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:text="facebook: "
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/youTube"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/faceBook"
+
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:text="Youtube: "
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

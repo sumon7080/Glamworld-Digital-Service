@@ -1,0 +1,3 @@
+include ':adminmodule'
+include ':app'
+rootProject.name = "Glamworld Digital Service"
